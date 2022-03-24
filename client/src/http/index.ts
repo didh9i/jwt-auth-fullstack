@@ -1,6 +1,6 @@
 import { AuthResponse } from '../models/response/AuthResponse'
 
-export const API_URL = 'https://localhost:5000/api'
+export const API_URL = 'http://localhost:5000/api'
 
 export default class XHR {
    static createXHR (type: string, url: string, body: any = null): Promise<any> {
